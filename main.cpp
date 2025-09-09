@@ -16,17 +16,17 @@
 main(){
 	(setlocale(LC_ALL, "Portuguese"));
 	srand(time(NULL));
-	tela_inicial();
-	textcolor(0); system("color 0"); system("cls");
-	cutscene_1();
-	textcolor(0); system("color 0"); system("cls");
-	fase_1();
-	system("cls");
-	cutscene_2();
-	system("cls");
-	fase_2();
-	system("cls");
-	cutscene_3();
+//	tela_inicial();
+//	textcolor(0); system("color 0"); system("cls");
+//	cutscene_1();
+//	textcolor(0); system("color 0"); system("cls");
+//	fase_1();
+//	system("cls");
+//	cutscene_2();
+//	system("cls");
+//	fase_2();
+//	system("cls");
+//	cutscene_3();
 	system("cls");
 	fase_3();
 	system("cls");
