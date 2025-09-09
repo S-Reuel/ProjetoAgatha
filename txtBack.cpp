@@ -4,16 +4,16 @@
 #ifndef COLORS_ENUM_DEFINED
 #define COLORS_ENUM_DEFINED
 
-enum COLORS {
-    BLACK = 0,
-    BLUE,
-    GREEN,
-    CYAN,
-    RED,
-    MAGENTA,
-    YELLOW,
-    WHITE
-};
+//enum COLORS {
+//    BLACK = 0,
+//    BLUE,
+//    GREEN,
+//    CYAN,
+//    RED,
+//    MAGENTA,
+//    YELLOW,
+//    WHITE
+//};
 
 void textbackground(int color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);

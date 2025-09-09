@@ -42,7 +42,7 @@ void instrucoes_fase_3(){
 	gotoxy(24,8); printf("inimigos digitando palavras.");
 	gotoxy(24,9); printf("As palavras aparecerão em");
 	gotoxy(24,10); printf("lugares aleatórios.");
-	gotoxy(24,12); printf("Você precisa digitar 10");
+	gotoxy(24,12); printf("Você precisa digitar 15");
 	gotoxy(24,13); printf("palavras corretamente em");
 	gotoxy(24,14); printf("30 segundos.");
 	gotoxy(24,16); printf("Quando acerta, ganha 1 ponto.");

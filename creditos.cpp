@@ -13,12 +13,12 @@
 
 
 void creditos(){	//imprimir killware.exe
-	textcolor(cor_nome); system("color 4");
+	textcolor(cor_nome);
 	for(int a=2; a<=54; a++){		//linha 2
 		if(a==3 || a==4 || a==6 || a==8 ||  a==10 || a==11 || a==12 || a==14 || a==15 || a==16 ||
 		a==18 || a==19 || a==20 || a==21 || a==22 || a==24 || a==25 || a==26 || a==28 || a==29 ||
 		a==30 || a==35 || a==39 || a==40 || a==41 || a==45 || a==47 || a==48 || a==49 || a==51) continue;
-		gotoxy(a+nome2,nome); printf(" ");
+		textbackground(4); gotoxy(a+nome2,nome); printf(" ");
 	}
 		
 	for(int c=2; c<=52; c++){		//linha 3
@@ -51,7 +51,7 @@ void creditos(){	//imprimir killware.exe
 	}
 	
 		system("color 0"); textcolor(15); gotoxy(10,14);
-	char texto[]="Criadoras e programadoras: Agatha Pollini de Abreu, Anna Odagawa Utida,Gabriela Angélico Sant'Anna  História: Agatha Pollini de Abreu, Gabriela Angélico Sant'Anna Código: Parte principal, Fase 1 - Anna Fase 2 - Gabriela Fase 3 - Agatha Menções especiais: Silas Reuel (O DESENVOLVEDOR) (INI-3B), Prof. José Vieira Júnior";
+	char texto[]="Criadoras e programadoras: Agatha Pollini de Abreu, Anna Odagawa Utida,Gabriela Angélico Sant'Anna  História: Agatha Pollini de Abreu, Gabriela Angélico Sant'Anna Código: Parte principal, Fase 1 - Anna Fase 2 - Gabriela Fase 3 - Agatha Menções especiais: Silas Reuel (INI-3B), Prof. José Vieira Júnior";
 	gotoxy(8,14);
 	for(int i=0;i<=70;i++){
 		printf("%c", texto[i]);

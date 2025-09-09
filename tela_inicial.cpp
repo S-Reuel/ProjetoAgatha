@@ -11,8 +11,6 @@ básicas para começar.*/
 #include <conio.h>
 #include <windows.h>
 
-//SetConsoleOutputCP(CP_UTF8);
-
 void nome_do_jogo(){	//imprimir killware.exe
 	for(int a=2; a<=54; a++){		//linha 2
 		if(a==3 || a==4 || a==6 || a==8 ||  a==10 || a==11 || a==12 || a==14 || a==15 || a==16 ||
@@ -55,13 +53,6 @@ void nome_do_jogo(){	//imprimir killware.exe
 	}
 }
 
-//void cenario_tela_inicial(){
-//	for(int a=1; a<=5; a++){	
-//		for(int b=3; b<=25; b++){	
-//			system("color D"); gotoxy(a,b);	
-//		}
-//	}
-//}
 
 void tela_inicial(){
 	nome_do_jogo();
