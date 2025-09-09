@@ -5,7 +5,7 @@
 #include <windows.h>
 #include "mensagem.cpp"
 #define meta 15
-#define limite 5
+#define limite 30
 #define hp 10
 
 
@@ -67,7 +67,7 @@ void fase_3(){
 			tempo = 0;
 			time_t start = time(NULL);
 			pontos = 0;
-		while (end == 0){ //enquanto o tempo não tiver chegado ao fim, o jogador pode continuar tentando
+		while (end == 0 && pontos<meta){ //enquanto o tempo não tiver chegado ao fim, o jogador pode continuar tentando
 			printf("Tempo: %d", limite - tempo);
 			printf(" HP: %d", hpu);
 			printf("\nPontos: %d", pontos);
@@ -93,7 +93,7 @@ void fase_3(){
 						end = 1;
 						continue;
 					}
-					while(getch()!=pal[i]){ //enquanto a letra digitada não for igual à letra contida no índice que o i está
+					while(getch()!=pal[i] && end == 0){ //enquanto a letra digitada não for igual à letra contida no índice que o i está
 						//ignora até a letra ser igual
 						
 					}
@@ -120,7 +120,7 @@ void fase_3(){
 						end = 1;
 						continue;
 					}
-					while(getch()!=pal[i]){
+					while(getch()!=pal[i] && end==0){
 						
 					}
 					gotoxy(x+cont,y);
@@ -145,7 +145,7 @@ void fase_3(){
 						end = 1;
 						continue;
 					}
-					while(getch()!=pal[i]){
+					while(getch()!=pal[i] && end==0){
 						
 					}
 					gotoxy(x+cont,y);

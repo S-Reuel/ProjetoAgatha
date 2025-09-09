@@ -51,7 +51,7 @@ void creditos(){	//imprimir killware.exe
 	}
 	
 		system("color 0"); textcolor(15); gotoxy(10,14);
-	char texto[]="Criadoras e programadoras: Agatha Pollini de Abreu, Anna Odagawa Utida,Gabriela Angélico Sant'Anna  História: Agatha Pollini de Abreu, Gabriela Angélico Sant'Anna Código: Parte principal, Fase 1 - Anna Fase 2 - Gabriela Fase 3 - Agatha Menções especiais: Silas Reuel (O DEV) (INI-3B), Prof. José Vieira Júnior";
+	char texto[]="Criadoras e programadoras: Agatha Pollini de Abreu, Anna Odagawa Utida,Gabriela Angélico Sant'Anna  História: Agatha Pollini de Abreu, Gabriela Angélico Sant'Anna Código: Parte principal, Fase 1 - Anna Fase 2 - Gabriela Fase 3 - Agatha Menções especiais: Silas Reuel (O DESENVOLVEDOR) (INI-3B), Prof. José Vieira Júnior";
 	gotoxy(8,14);
 	for(int i=0;i<=70;i++){
 		printf("%c", texto[i]);
